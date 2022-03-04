@@ -77,7 +77,7 @@ function onDeleteTodoItem(todoId){
         if ('todo' + eachTodo.uniqueId === todoId){
             return true;
         }else{
-            false;
+            return false;
         }
     });
 
